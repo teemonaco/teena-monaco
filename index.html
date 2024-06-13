@@ -1,86 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teena Monaco Portfolio</title>
-    <link rel="stylesheet" href="css/tees-styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teena Monaco - Project Showcase</title>
+  <link rel="stylesheet" href="css/tees-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Teena Monaco</h1>
-            <p>UX/UI Designer & Front-End Developer</p>
-        </div>
-    </header>
+  <header class="header">
+    <h1>Teena Monaco</h1>
     <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#scrapbook">E-commerce Redesign</a></li>
-                <li><a href="#analytics-dashboard">Analytics Dashboard</a></li>
-                <li><a href="#video-platform">Video Platform</a></li>
-                <li><a href="#infodesk-emails">Email Templates</a></li>
-                <li><a href="#design-system">Custom Design System</a></li>
-                <li><a href="#usability-testing">Usability Testing Integration</a></li>
-                
-            </ul>
-        </div>
+      <ul>
+        <li><a href="#ecommerce-redesign">E-commerce Redesign</a></li>
+        <li><a href="#analytics-dashboard">Analytics Dashboard</a></li>
+      </ul>
     </nav>
-    <main>
-        <section id="scrapbook" class="project-section">
-            <div class="container">
-                <h2>Scrapbook.com E-commerce Redesign</h2>
-                <p class="subtitle">Improving Checkout Experience and Overall Site Usability</p>
-                <div class="project-content">
-                    <div class="project-details">
-                        <h3>Overview</h3>
-                        <p>Led a comprehensive redesign of the Scrapbook.com e-commerce site, focusing on enhancing the checkout process and overall site usability for a demographic predominantly aged 55 and up. This project involved creating a custom design system, conducting extensive user research, and optimizing site performance.</p>
-                        <ul>
-                            <li><strong>Role:</strong> Lead UX/UI Designer & Front-End Developer</li>
-                            <li><strong>Duration:</strong> February 2023 - Present</li>
-                            <li><strong>Tools Used:</strong> Figma, Looker Studio, HTML, CSS, JavaScript, PHP, Google Analytics, Exponea, Google Search Console</li>
-                        </ul>
-                        <h3>Challenge</h3>
-                        <p>The existing e-commerce site had a high cart abandonment rate and frequent user complaints about the checkout process. The goal was to redesign the site to improve user experience, accessibility, and conversion rates, specifically targeting an older user demographic.</p>
-                        <h3>Process</h3>
-                        <ul>
-                        <li><strong>Research:</strong> Conducted user research including surveys, interviews, and usability testing to understand the needs and pain points of the target demographic. Analyzed data from Google Analytics, Exponea, and Google Search Console to track user behavior and identify key areas for improvement.</li>
-                        <li><strong>Design:</strong>  Developed a comprehensive Accessible Design System following WCAG standards. Created wireframes, mock-ups, and high-fidelity designs in Figma and Adobe XD. Focused on making the interface intuitive and accessible, with clear navigation and readability.</li>
-                        <li><strong>Prototyping:</strong>  Utilized rapid prototyping techniques to create both low-fidelity and high-fidelity prototypes. Conducted regular demos to stakeholders to gather feedback and iterate on designs.</li>
-                        <li><strong>Implementation:</strong>  Worked closely with the development team to implement the new designs. Developed a custom framework dashboard for developers to streamline code implementation and ensure consistency. Optimized site performance by creating a custom Font Awesome kit, significantly reducing load times.</li>
-                        </ul>
-                        <h3>Solution</h3>
-                        <ul>
-                            <li>Redesigned the entire checkout process, integrating PayPal and Apple Pay to provide seamless payment options.</li>
-                            <li>Improved the overall site usability with a focus on accessibility features such as larger fonts, high-contrast themes, and simplified navigation.</li>
-                            <li>Created custom dashboards in Looker Studio to continuously track user behavior and measure the impact of design changes.</li>
-                        </ul>
-                        <h3>Results</h3>
-                        <ul>
-                            <li>Redesigned the entire checkout process, integrating PayPal and Apple Pay to provide seamless payment options.</li>
-                            <li>Improved the overall site usability with a focus on accessibility features such as larger fonts, high-contrast themes, and simplified navigation.</li>
-                            <li>Created custom dashboards in Looker Studio to continuously track user behavior and measure the impact of design changes.</li>
-                        </ul>                    </div>
-                        <div class="project-images">
-                            <h3>Visuals</h3>
-                            <img src="images/scrapbook_before_after_cart-1.png" alt="Before and After Checkout Process">
-                            <img src="images/scrapbook_before_after_ship-2.png" alt="Design System Elements">
-                            <img src="images/scrapbook_before_after_cart-1.png" alt="Before and After Checkout Process">
-                            <img src="images/scrapbook_before_after_ship-2.png" alt="Design System Elements">
-                        </div>
-                </div>
-            </div>
-        </section>
-        <!-- Repeat similar sections for each project -->
-    </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Teena Monaco | <a href="mailto:teemonaco@gmail.com">teemonaco@gmail.com</a> | <a href="https://linkedin.com/in/teemonaco" target="_blank">LinkedIn</a></p>
+  </header>
+  
+  <div class="featured-slider">
+    <div><img width="300px" src="images/mycart-new.png" alt="Featured Image 1"></div>
+    <div><img width="300px" src="images/mycart-new.png" alt="Featured Image 2"></div>
+    <div><img width="300px" src="images/mycart-new.png" alt="Featured Image 3"></div>
+  </div>
+
+
+  <main>
+    <section id="ecommerce-redesign" class="project-section">
+      <div class="section-header">
+        <h2>Scrapbook.com E-commerce Redesign</h2>
+        <p>Improving Checkout Experience and Overall Site Usability</p>
+      </div>
+      
+      <div class="project-content">
+        <div class="card overview">
+            <h3><i class="fas fa-info-circle"></i> Overview</h3>
+
+          <p>Led a comprehensive redesign of the Scrapbook.com e-commerce site...</p>
+          <ul>
+            <li><strong>Role:</strong> Lead UX/UI Designer & Front-End Developer</li>
+            <li><strong>Duration:</strong> February 2023 - Present</li>
+            <li><strong>Tools Used:</strong> Figma, Looker Studio, HTML, CSS, JavaScript, PHP, Google Analytics, Exponea, Google Search Console</li>
+          </ul>
         </div>
-    </footer>
+        
+        <div class="card challenge">
+            <h3><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
+          <p>The existing e-commerce site had a high cart abandonment rate and frequent user complaints about the checkout process. The goal was to redesign the site to improve user experience, accessibility, and conversion rates, specifically targeting an older user demographic.</p>
+          <ul>
+            <li>Design and functionality were inconsistent, leading to a disjointed user experience.</li>
+            <li>Error messages were unclear, causing confusion for users.</li>
+            <li>The site was not responsive, resulting in poor usability across different devices.</li>
+            <li>Lack of viewport settings led to significant layout issues on various screens.</li>
+            <li>Pages loaded in quirks mode, adversely affecting performance and display consistency.</li>
+            <li>Slow loading times significantly detracted from the user experience.</li>
+            <li>Failed to meet AA contrast standards, making text difficult to read.</li>
+            <li>Forms lacked accessibility features, hindering usability for all users.</li>
+          </ul>
+        </div>
+
+        <div class="card process">
+            <h3><i class="fas fa-cogs"></i> Process</h3>
+          <p><strong>Research:</strong> Conducted user research including surveys, interviews, and usability testing to understand the needs and pain points of the target demographic. Analyzed data from Google Analytics, Exponea, and Google Search Console to track user behavior and identify key areas for improvement.</p>
+          <p><strong>Design:</strong> Developed a comprehensive Accessible Design System following WCAG standards. Created wireframes, mock-ups, and high-fidelity designs in Figma and Adobe XD. Focused on making the interface intuitive and accessible, with clear navigation and readability.</p>
+          <p><strong>Prototyping:</strong> Utilized rapid prototyping techniques to create both low-fidelity and high-fidelity prototypes. Conducted regular demos to stakeholders to gather feedback and iterate on designs.</p>
+          <p><strong>Implementation:</strong> Worked closely with the development team to implement the new designs. Developed a custom framework dashboard for developers to streamline code implementation and ensure consistency. Optimized site performance by creating a custom Font Awesome kit, significantly reducing load times.</p>
+        </div>
+
+        <div class="card solution">
+            <h3><i class="fas fa-lightbulb"></i> Solution</h3>
+          <p>Redesigned the entire checkout process to streamline the user experience and reduce cart abandonment. Key steps included:</p>
+          <ul>
+            <li>Integrated PayPal and Apple Pay to provide seamless and flexible payment options.</li>
+            <li>Improved overall site accessibility by implementing larger fonts, high-contrast themes, and simplified navigation.</li>
+            <li>Developed a custom Font Awesome kit to enhance performance and reduce load times.</li>
+            <li>Created a framework dashboard for developers to ensure consistent code implementation and streamline the development process.</li>
+          </ul>
+        </div>
+
+        <div class="card results">
+            <h3><i class="fas fa-chart-line"></i> Results</h3>
+          <ul>
+            <li>Reduced cart abandonment rate by 20%, resulting in a significant increase in completed purchases.</li>
+            <li>Enhanced user satisfaction, reflected in a 30% decrease in checkout-related complaints.</li>
+            <li>Increased accessibility compliance, receiving positive feedback from users with visual impairments.</li>
+            <li>Improved site performance, with a 15% faster load time due to the optimized Font Awesome kit.</li>
+            <li>Data-driven insights: Created custom dashboards in Looker Studio to continuously track user behavior and measure the impact of design changes, leading to more informed decision-making.</li>
+          </ul>
+        </div>
+
+        <div class="card visuals">
+          <h3><i class="icon-visuals"></i> Visuals</h3>
+          <div class="visuals-gallery mini-slider">
+            <div><img src="visual1.png" alt="Visual 1"></div>
+            <div><img src="visual2.png" alt="Visual 2"></div>
+            <div><img src="visual3.png" alt="Visual 3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Teena Monaco | <a href="mailto:teenamonaco@gmail.com">teenamonaco@gmail.com</a> | <a href="https://linkedin.com/in/teenamonaco">LinkedIn</a></p>
+    <button class="cta-button">Contact Me</button>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
+// Include jQuery and Slick Slider
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.featured-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+    
+    $('.mini-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+  });
+</script>
+
 </html>
